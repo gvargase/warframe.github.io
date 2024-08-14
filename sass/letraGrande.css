@@ -1,0 +1,12 @@
+h3{
+    font-size: 28px;
+}
+p, a, input{
+    font-size: 22px;
+}
+.form form label{
+    font-size: 22px;
+}
+html > button{
+    font-size: 22px;
+}

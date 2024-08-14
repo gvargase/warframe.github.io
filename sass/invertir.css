@@ -1,0 +1,13 @@
+html{
+    filter: invert(100%);
+}
+#submit, #reset{
+    color: black;
+}
+main, h3{
+    color: white;
+}
+input, textarea{
+    background-color: black;
+    color: white;
+}

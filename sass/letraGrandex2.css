@@ -1,0 +1,16 @@
+h3{
+    font-size: 35px;
+}
+p, a, input{
+    font-size: 25px;
+}
+.form form label{
+    font-size: 25px;
+}
+main .color_accesibilidad{
+    font-size: 25px;
+    width: 300px;
+}
+#submit, #reset{
+    width: 300px;
+}

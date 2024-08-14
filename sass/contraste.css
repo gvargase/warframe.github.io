@@ -1,0 +1,26 @@
+nav, body, footer {
+    background-color: blue;
+    color: white;
+}
+img{
+    filter: contrast(300%);
+}
+.menu ul a{
+    color: white;
+}
+#accesibilidad{
+    z-index: 888;
+}
+h3{
+    color: white;
+}
+.noticias div a{
+    color: white;
+}
+.redes i{
+    background-color: white;
+    color: black;
+}
+#accesibilidad{
+    background-color: #b30000;
+}

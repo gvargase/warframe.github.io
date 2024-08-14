@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Gabriela Vargas">
+    <meta name="description" content="Página informativa sobre el videojuego RPG Warframe disponible en todas las plataformas">
+    <meta name="keywords" content="Warframe, videjuego, RPG, acción">
+    <link rel="stylesheet" href="sass/style.css">
+    <link rel="shortcut icon" href="img/logo_blanco.png" type="image/x-icon">
+    <title>Warframe</title>
+    <script src="https://kit.fontawesome.com/969afb15e0.js" crossorigin="anonymous"></script>
+    <!-- Import de Tipografia Roboto  -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+        #accesibilidad{
+            left: 0;
+            top: 80px;
+            z-index: 888;
+        }
+    </style>
+    <!-- Redes Sociales -->
+    <script src="https://kit.fontawesome.com/969afb15e0.js" crossorigin="anonymous"></script>
+    <!-- Estilos de Accesibilidad -->
+    <link rel="stylesheet" href="" id="letraNormal">
+    <link rel="stylesheet" href="" id="espaciado">
+    <link rel="stylesheet" href="" id="colores">
+    <link rel="stylesheet" href="" id="vinculos">
+</head>
+<body>
+    <nav>
+        <div class="nav">
+            <a href="index.html"><img src="img/logo.png" alt="Logo" title="Logo"></a>    
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="warframes.html" style="text-decoration: underline;">Warframes</a></li>
+                    <li><a href="#">Noticias</a></li>
+                    <li><a href="#">Actualizaciones</a></li>
+                    <li><a href="#">Comunidad</a></li>
+                    <button type="button">Jugar Ahora</button>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <img src="img/icono-accesibilidad.png" width="5%" id="logo_accesibilidad" onclick="funAbrir()" >
+        <div id="accesibilidad">
+            <button id="cierre" onclick="funCerrar()">X</button>
+            <br><br>
+            <button class="botones" onclick="funLetraGrande()">Letra Grande</button>
+            <br>
+            <button class="botones" onclick="funLetraGrandex2()">Letra Grande x2</button>
+            <br>
+            <button class="botones" onclick="funLetraNormal()">Letra Normal</button>
+            <br>
+            <button class="botones" onclick="funContraste()">Contraste</button>
+            <br>
+            <button class="botones" onclick="funBN()">Blanco y Negro</button>
+            <br>
+            <button class="botones" onclick="funInvertirColores()">Invertir Colores</button>
+            <br>
+            <button class="botones" onclick="funColoresNormales()">Colores Normal</button>
+            <br>
+            <button class="botones" onclick="funActivarVinculos()">Activar Vínculos</button>
+            <br>
+            <button class="botones" onclick="funDesactivarVinculos()">Desactivar Vínculos</button>
+            <br>
+            <button class="botones" onclick="funEspaciado()">Espaciado Aumentado</button>
+            <br>
+            <button class="botones" onclick="funNoEspaciado()">Espaciado Normal</button>
+        </div>
+        <div  class="tit">
+            <h2>Warframes</h2>   
+            <hr> 
+        </div> 
+        <div class="mag">
+            <div>
+                <h2>Mag</h2>
+                <p>Derriba a tus enemigos con fuerza magnética. Mag altera los campos magnéticos para proporcionar control de multitudes y eliminar las defensas enemigas. Pocos pueden resistir su atracción o su repulsión.</p>
+                <div class="habilidades">
+                    <div class="hab1">
+                        <img src="img/mag_habilidad1.png">
+                        <h3>Tirón</h3>
+                        <p>Mag aturde a los enemigos mientras genera un vórtice magnético. El vórtice atrae los fragmentos polarizados y los enemigos aturdidos para colocarlos directamente frente a ella.</p>
+                    </div>
+                    <div class="hab1">
+                        <img src="img/mag_habilidad2.png">
+                        <h3>Magnetizar</h3>
+                        <p>(PRESIONAR) Encierra a un objetivo en un campo magnético que atrapa a los enemigos cercanos e inflige daño con el tiempo. El campo atrae los fragmentos polarizados que orbitaban a Mag y la metralla, 
+                            formando una mezcla mortal. (MANTENER) Mag se rodea de un campo magnético que absorbe los ataques a distancia y devuelve el daño en un cono destructivo.</p>
+                    </div>
+                    <div class="hab1">
+                        <img src="img/mag_habilidad3.png">
+                        <h3>Polarizar</h3>
+                        <p>Emite un pulso de energía que agota los escudos y armaduras de los enemigos mientras restaura los escudos de los aliados. Los escombros que deja el pulso se convierten en fragmentos polarizados. 
+                            Los fragmentos polarizados cercanos orbitan a Mag y cortan a los enemigos, infligiendo un efecto de estado cortante.</p>
+                    </div><div class="hab1">
+                        <img src="img/mag_habilidad4.png">
+                        <h3>Aplastra</h3>
+                        <p>Magnetiza los huesos de los enemigos cercanos, provocando que colapsen entre sí.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mag">
+            <div>
+                <h2>Excalibur</h2>
+                <p>Excalibur personifica el espíritu guerrero. Su habilidad maestra con la espada inflige gran daño. Es la encarnación de la excelencia marcial.Excalibur personifica el espíritu guerrero. Su habilidad maestra con la espada inflige gran daño. Es la encarnación de la excelencia marcial.</p>
+                <div class="habilidades">
+                    <div class="hab1">
+                        <img src="img/excalibur_habilidad1.png">
+                        <h3>Corte Fugaz</h3>
+                        <p>Corta y atraviesa a los enemigos junto a un espectro radial. Los cortes de la poderosa espada exaltada infligen un efecto de estado cortante.</p>
+                    </div>
+                    <div class="hab1">
+                        <img src="img/excalibur_habilidad2.png">
+                        <h3>Destello Radial</h3>
+                        <p>Emite un destello brillante de luz que ciega a todos los enemigos cercanos.</p>
+                    </div>
+                    <div class="hab1">
+                        <img src="img/excalibur_habilidad3.png">
+                        <h3>Jabalina Radial</h3>
+                        <p>Las jabalinas radiales atraviesan a los enemigos cercanos e infligen un efecto de estado cortante.</p>
+                    </div><div class="hab1">
+                        <img src="img/excalibur_habilidad4.png">
+                        <h3>Espada Exaltada</h3>
+                        <p>Convoca una espada de pura luz e inmenso poder.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mag">
+            <div>
+                <h2>Volt</h2>
+                <p>La electricidad fluye a través de Volt. Sus ataques causan mucho daño. Los enemigos quedarán aturdidos.La electricidad fluye a través de Volt. Sus ataques causan mucho daño. Los enemigos quedarán aturdidos.</p>
+                <div class="habilidades">
+                    <div class="hab1">
+                        <img src="img/volt_habilidad1.png">
+                        <h3>Sacudida</h3>
+                        <p>Lanza un proyectil voltaico que aturde y daña a su objetivo. Una cadena de electricidad se extiende desde el objetivo para electrocutar a los enemigos cercanos.</p>
+                    </div>
+                    <div class="hab1">
+                        <img src="img/volt_habilidad2.png">
+                        <h3>Velocidad</h3>
+                        <p>Vuélvete una corriente eléctrica. Volt y sus aliados reciben un breve impulso en su velocidad de movimiento y de recarga.</p>
+                    </div>
+                    <div class="hab1">
+                        <img src="img/volt_habilidad3.png">
+                        <h3>Escudo Eléctrico</h3>
+                        <p>Volt despliega un escudo eléctrico que bloquea los proyectiles.</p>
+                    </div><div class="hab1">
+                        <img src="img/volt_habilidad4.png">
+                        <h3>Descarga</h3>
+                        <p>Volt descarga la electricidad que lo recorre. La onda de choque paraliza y daña a los enemigos cercanos y aturde a los que están en el borde.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="carrusel">
+            <div class="contenido_carrusel">
+                <div class="item_carrusel" id="itemCarrousel-1">
+                    <div class="item_carruselTarjeta"><img src="img/mag_carrusel.avif" alt="Mag" title="Mag"></div>
+                    <div class="item_carruselFlecha"> 
+                        <a href="#itemCarrousel-3">
+                            <i class="fas fa-chevron-left"></i>
+                        </a>
+                        <a href="#itemCarrousel-2">
+                            <i class="fas fa-chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="item_carrusel" id="itemCarrousel-2">
+                    <div class="item_carruselTarjeta"><img src="img/excalibur_carrusel.jpg" alt="Excalibur" title="Excalibur"></div>
+                    <div class="item_carruselFlecha">
+                        <a href="#itemCarrousel-1">
+                            <i class="fas fa-chevron-left"></i>
+                        </a>
+                        <a href="#itemCarrousel-3">
+                            <i class="fas fa-chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="item_carrusel" id="itemCarrousel-3">
+                    <div class="item_carruselTarjeta"><img src="img/volt_carrusel.jpg" alt="Volt" title="Volt"></div>
+                    <div class="item_carruselFlecha">
+                        <a href="#itemCarrousel-2">
+                            <i class="fas fa-chevron-left"></i>
+                        </a>
+                        <a href="#itemCarrousel-1">
+                            <i class="fas fa-chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="redes">
+            <h2>¡CONÉCTATE CON OTROS TENNO!</h2>
+            <hr>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitch"></i>
+            <i class="fa-brands fa-discord"></i>
+        </div>
+        <div class="redes submenu">
+            <ul>
+                <li><a href="#">Soporte</a></li>
+                <li><a href="#">Términos de Uso</a></li>
+                <li><a href="#">Politica de Privacidad</a></li>
+                <li><a href="#">Creadores</a></li>
+            </ul>
+        </div>
+        <div class="plataformas">
+            <img src="img/logo_vertical.png" alt="Logo" title="Logo" class="logo"> 
+            <p>©2024 Todos los derechos reservados. Todas las marcas registradas son propiedad de sus dueños.</p>   
+            <div class="apps">
+                <ul>
+                    <li><img src="img/steam.png" alt="Steam" width="70%"></li>
+                    <li><img src="img/epic.png" alt="Epic Games"  width="70%" ></li>
+                    <li><img src="img/switch.png" alt="Nintendo Switch" width="70%"></li>
+                    <li><img src="img/psn.png" alt="PlayStation" width="70%"></li>
+                    <li><img src="img/xbox.png" alt="XBOX" width="70%"></li>
+                    <li><img src="img/ios-app-store.svg" alt="IOS App Store"></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
